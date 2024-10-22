@@ -25,11 +25,6 @@ public class CoffeeMachineController {
     private final CoffeeService coffeeService;
     private final IngredientService ingredientService;
 
-    @GetMapping("/status")
-    public String getStatus() {
-        return "Кофемашина в рабочем состоянии";
-    }
-
     @GetMapping(value = "/drinks")
     public ResponseEntity<List<Drink>> getDrinks() {
         return ResponseEntity.ok(coffeeService.getAllDrinks());

@@ -1,5 +1,7 @@
 spring:
   flyway:
+    enabled: true
+    ignore-unknown-database: true
     locations: classpath:db/migration
   datasource:
     url: jdbc:postgresql://localhost:5433/CoffeeMachine

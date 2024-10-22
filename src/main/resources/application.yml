@@ -1,0 +1,8 @@
+spring:
+  flyway:
+    locations: classpath:db/migration
+  datasource:
+    url: jdbc:postgresql://localhost:5433/CoffeeMachine
+    username: postgres
+    password: 1
+    driver-class-name: org.postgresql.Driver

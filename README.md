@@ -26,3 +26,5 @@
  - БД PostgresSQL (можно другую с обоснованием)
  - Применить FlyWay
  - Для тестирования API подключить SwaggerUI
+
+![image](https://github.com/user-attachments/assets/688b45e8-4010-49e9-bc0e-bd58232c0d14)
